@@ -1,0 +1,8 @@
+.main-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-menu .md-nav-item ul {
+}
