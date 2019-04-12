@@ -2,7 +2,18 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: rgb(268, 268, 268);
 }
 
-.main-menu .md-nav-item ul {
+.main-menu ._md-nav-bar-list {
+  justify-content: center;
+}
+
+.main-menu ._md-nav-bar-list li {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.md-unselected md-icon {
+  color: rgba(0, 0, 0, 0.4) !important;
 }

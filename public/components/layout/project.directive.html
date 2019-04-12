@@ -1,0 +1,9 @@
+<div class="project">
+  <div class="project__title">{{::project.title}} <md-icon md-svg-src="public/assets/{{::project.projectTypeImg}}.svg"></md-icon></div>
+  <div class="project__samples">
+    <md-button ng-repeat="img in ::project.sampleImg track by $index" ng-click="openProjectDialog($event, project, img)"
+      ><img ng-src="public/assets/projects/{{::project.id}}/{{::img}}"
+    /></md-button>
+  </div>
+  <div class="project__description">{{::project.description}}</div>
+</div>

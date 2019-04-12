@@ -1,55 +1,16 @@
 .projects {
   display: flex;
-}
-
-.projects-grid {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: wrap;
-}
-
-.project {
-  margin: 0;
-  display: flex;
   justify-content: center;
+  overflow: hidden;
+  background-color: rgb(238, 238, 238);
+}
+
+.projects-list {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  color: white;
-  font-size: 1.6vh;
-  width: 50vw;
-  height: 25vh;
   position: relative;
-}
-
-.project.green {
-  background-color: rgb(0, 128, 64);
-}
-
-.project.red {
-  background-color: rgb(172, 47, 115);
-}
-
-.project.blue {
-  background-color: rgb(34, 68, 161);
-}
-
-.project.orange {
-  background-color: goldenrod;
-}
-
-.project.purple {
-  background-color: rgb(63, 11, 63);
-}
-
-.project.teal {
-  background-color: teal;
-}
-
-.project button.md-button {
-  border-radius: none !important;
-  height: 100% !important;
-  width: 100% !important;
-  font-weight: inherit !important;
-  font-size: inherit !important;
-  margin: 0 !important;
 }

@@ -1,0 +1,4 @@
+.project-dialog {
+  display: flex;
+  flex-direction: column;
+}
